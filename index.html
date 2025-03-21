@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site în construcție - Mesterul3D</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('images/bkg.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        .container {
+            background: #f0f0f0;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-size: cover;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .brand {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .social {
+            margin-top: 15px;
+        }
+        .social a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="brand">Mesterul3D</div>
+    <h1>🚧 Site-ul este în construcție</h1>
+    <p>🚀 Revenim în curând cu ceva extraordinar!</p>
+    <div class="social">
+        <p>🔔 Urmărește-ne pe TikTok: <a href="https://www.tiktok.com/@mesterul3d" target="_blank">@mesterul3d</a></p>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const container = document.querySelector(".container");
+        container.style.opacity = "0";
+        setTimeout(() => {
+            container.style.transition = "opacity 1s";
+            container.style.opacity = "1";
+        }, 500);
+    });
+</script>
+</body>
+</html>
