@@ -1,5 +1,1 @@
-
-;www.mesterul3d.ro
-www.mesterul3d.ro.            3592    IN      CNAME   mesterul3d.github.io.
-mesterul3d.github.io.         43192   IN      CNAME   GITHUB-PAGES-SERVER .
-GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+mesterul3d.ro
