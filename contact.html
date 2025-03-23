@@ -97,7 +97,7 @@
             var email = document.getElementById("email").value;
             var message = document.getElementById("message").value;
 
-            var mailtoLink = `mailto:contact@exemplu.com?subject=Mesaj de la ${encodeURIComponent(name)}&body=Nume: ${encodeURIComponent(name)}%0D%0AEmail: ${encodeURIComponent(email)}%0D%0AMesaj: ${encodeURIComponent(message)}`;
+            var mailtoLink = `mailto:contact@exemplu.com?subject=Mesaj de la ${encodeURIComponent(name)}&body=Mesaj: ${encodeURIComponent(message)}`;
 
             window.location.href = mailtoLink;
         }
